@@ -2,8 +2,9 @@
   "redirects": [
   ],
   "rewrites": [
-    { "source": "/api/read", "destination": "https://toggles-backend.vercel.app/api/read" },
-    { "source": "/:match*", "destination": "https://toggles-frontend-bastianparedes.vercel.app/:match*" },
+    { "source": "/api", "destination": "https://toggles-backend.vercel.app/api" },
+    { "source": "/api/:path*", "destination": "https://toggles-backend.vercel.app/api/:path*" },
     { "source": "/", "destination": "https://toggles-frontend-bastianparedes.vercel.app" }
+    { "source": "/:match*", "destination": "https://toggles-frontend-bastianparedes.vercel.app/:match*" },
   ]
 }
