@@ -1,0 +1,34 @@
+{
+  "redirects": [
+    { "source": "/", "destination": "/portfolio", "permanent": true },
+    { "source": "/:path+/", "destination": "/:path" }
+    
+  ],
+  "rewrites": [
+    { "source": "/portoflio", "destination": "https://portoflio-bastianparedes.vercel.app/portoflio" },
+    { "source": "/portoflio/:path*", "destination": "https://portoflio-bastianparedes.vercel.app/portoflio/:path*" },
+    { "source": "/mallas-provent", "destination": "https://mallas-provent-bastianparedes.vercel.app/mallas-provent" },
+    { "source": "/mallas-provent/:path*", "destination": "https://mallas-provent-bastianparedes.vercel.app/mallas-provent/:path*" },
+
+
+
+    { "source": "/nanko-mangas-next", "destination": "https://nanko-mangas-next-bastianparedes.vercel.app/nanko-mangas-next" },
+    { "source": "/nanko-mangas-next/:path*", "destination": "https://nanko-mangas-next-bastianparedes.vercel.app/nanko-mangas-next/:path*" },    
+    { "source": "/todolist", "destination": "https://todolist-bastianparedes.vercel.app/todolist" },
+    { "source": "/todolist/:path*", "destination": "https://todolist-bastianparedes.vercel.app/todolist/:path*" },
+    { "source": "/tusalad", "destination": "https://tusalad-bastianparedes.vercel.app/tusalad" },
+    { "source": "/tusalad/:path*", "destination": "https://tusalad-bastianparedes.vercel.app/tusalad/:path*" },
+    { "source": "/ba-tester", "destination": "https://ba-tester-bastianparedes.vercel.app/ba-tester" },
+    { "source": "/ba-tester/:path*", "destination": "https://ba-tester-bastianparedes.vercel.app/ba-tester/:path*" },
+    { "source": "/passwords", "destination": "https://passwords-bastianparedes.vercel.app/passwords" },
+    { "source": "/passwords/:path*", "destination": "https://passwords-bastianparedes.vercel.app/passwords/:path*" },
+    { "source": "/pdf-constructor", "destination": "https://pdf-constructor-bastianparedes.vercel.app/pdf-constructor" },
+    { "source": "/pdf-constructor/:path*", "destination": "https://pdf-constructor-bastianparedes.vercel.app/pdf-constructor/:path*" },
+    { "source": "/qr-generator", "destination": "https://qr-generator-bastianparedes.vercel.app/qr-generator" },
+    { "source": "/qr-generator/:path*", "destination": "https://qr-generator-bastianparedes.vercel.app/qr-generator/:path*" },
+    { "source": "/contact", "destination": "https://contact-bastianparedes.vercel.app/contact" },
+    { "source": "/contact/:path*", "destination": "https://contact-bastianparedes.vercel.app/contact/:path*" },
+    { "source": "/", "destination": "https://portfolio-bastianparedes.vercel.app" },
+    { "source": "/:match*", "destination": "https://portfolio-bastianparedes.vercel.app/:match*" }
+  ]
+}
