@@ -13,7 +13,7 @@
 
 
     { "source": "/nanko-mangas-next", "destination": "https://nanko-mangas-next-bastianparedes.vercel.app/nanko-mangas-next" },
-    { "source": "/nanko-mangas-next/:path*", "destination": "https://nanko-mangas-next-bastianparedes.vercel.app/nanko-mangas-next/:path*" },    
+    { "source": "/nanko-mangas-next/:path*", "destination": "https://nanko-mangas-next-bastianparedes.vercel.app/nanko-mangas-next/:path*" },
     { "source": "/todolist", "destination": "https://todolist-bastianparedes.vercel.app/todolist" },
     { "source": "/todolist/:path*", "destination": "https://todolist-bastianparedes.vercel.app/todolist/:path*" },
     { "source": "/tusalad", "destination": "https://tusalad-bastianparedes.vercel.app/tusalad" },
