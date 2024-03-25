@@ -1,7 +1,6 @@
 {
   "redirects": [
-    { "source": "https://toggles.bastianparedes.com/api/:path+/", "destination": "https://toggles-backend.vercel.app/api/:path", "permanent": true },
-    { "source": "/api/:path+/", "destination": "/:path" }
+    { "source": "/api/:path+/", "destination": "https://toggles-backend.vercel.app/api/:path", "permanent": true }
   ],
   "rewrites": [
     { "source": "/", "destination": "https://toggles-frontend-bastianparedes.vercel.app" },
