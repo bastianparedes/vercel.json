@@ -3,7 +3,7 @@
   ],
   "rewrites": [
     { "source": "/toggles-backend/api/:path*", "destination": "https://toggles-backend-bastianparedes.vercel.app/api/:path*" },    
-    { "source": "/:match*", "destination": "https://toggles-frontend-bastianparedes.vercel.app/:match*" }
-    { "source": "/", "destination": "https://toggles-frontend-bastianparedes.vercel.app" },
+    { "source": "/:match*", "destination": "https://toggles-frontend-bastianparedes.vercel.app/:match*" },
+    { "source": "/", "destination": "https://toggles-frontend-bastianparedes.vercel.app" }
   ]
 }
