@@ -1,8 +1,8 @@
 {
   "redirects": [
-    { "source": "/api/read", "destination": "https://toggles-backend.vercel.app/api/read" }
   ],
   "rewrites": [
+    { "source": "/api/read", "destination": "https://toggles-backend.vercel.app/api/read" },
     { "source": "/:match*", "destination": "https://toggles-frontend-bastianparedes.vercel.app/:match*" },
     { "source": "/", "destination": "https://toggles-frontend-bastianparedes.vercel.app" }
   ]
