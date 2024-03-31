@@ -2,7 +2,7 @@
   "redirects": [
   ],
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://toggles-backend.vercel.app/api/:path*" },
+    { "source": "/trpc/:path*", "destination": "https://toggles-backend.vercel.app/trpc/:path*" },
     { "source": "/", "destination": "https://toggles-frontend-bastianparedes.vercel.app" },
     { "source": "/:match*", "destination": "https://toggles-frontend-bastianparedes.vercel.app/:match*" }
   ]
