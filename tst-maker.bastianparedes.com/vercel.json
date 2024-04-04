@@ -1,0 +1,9 @@
+{
+  "redirects": [
+  ],
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "https://tst-maker-backend.vercel.app/trpc/:path*" },
+    { "source": "/", "destination": "https://tst-maker-frontend-bastianparedes.vercel.app" },
+    { "source": "/:match*", "destination": "https://tst-maker-frontend-bastianparedes.vercel.app/:match*" }
+  ]
+}
