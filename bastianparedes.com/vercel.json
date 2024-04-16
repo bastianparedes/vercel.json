@@ -23,8 +23,6 @@
     { "source": "/qr-generator", "destination": "https://qr-generator-bastianparedes.vercel.app/qr-generator" },
     { "source": "/qr-generator/:path*", "destination": "https://qr-generator-bastianparedes.vercel.app/qr-generator/:path*" },
     { "source": "/contact", "destination": "https://contact-bastianparedes.vercel.app/contact" },
-    { "source": "/contact/:path*", "destination": "https://contact-bastianparedes.vercel.app/contact/:path*" },
-    { "source": "/", "destination": "https://portfolio.bastianparedes.com/portfolio" },
-    { "source": "/:match*", "destination": "https://portfolio.bastianparedes.com/portfolio/:match*" }
+    { "source": "/contact/:path*", "destination": "https://contact-bastianparedes.vercel.app/contact/:path*" }
   ]
 }
