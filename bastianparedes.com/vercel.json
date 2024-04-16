@@ -2,11 +2,10 @@
   "redirects": [
     { "source": "/", "destination": "/portfolio", "permanent": true },
     { "source": "/:path+/", "destination": "/:path" }
-    
   ],
   "rewrites": [
-    { "source": "/portoflio", "destination": "https://portoflio-bastianparedes.vercel.app/portoflio" },
-    { "source": "/portoflio/:path*", "destination": "https://portoflio-bastianparedes.vercel.app/portoflio/:path*" },
+    { "source": "/portoflio", "destination": "portfolio-psi-brown-45.vercel.app/portoflio" },
+    { "source": "/portoflio/:path*", "destination": "portfolio-psi-brown-45.vercel.app/portoflio/:path*" },
     { "source": "/mallas-provent", "destination": "https://mallas-provent-bastianparedes.vercel.app/mallas-provent" },
     { "source": "/mallas-provent/:path*", "destination": "https://mallas-provent-bastianparedes.vercel.app/mallas-provent/:path*" },
 
@@ -28,7 +27,7 @@
     { "source": "/qr-generator/:path*", "destination": "https://qr-generator-bastianparedes.vercel.app/qr-generator/:path*" },
     { "source": "/contact", "destination": "https://contact-bastianparedes.vercel.app/contact" },
     { "source": "/contact/:path*", "destination": "https://contact-bastianparedes.vercel.app/contact/:path*" },
-    { "source": "/", "destination": "https://portfolio-bastianparedes.vercel.app" },
-    { "source": "/:match*", "destination": "https://portfolio-bastianparedes.vercel.app/:match*" }
+    { "source": "/", "destination": "portfolio-psi-brown-45.vercel.app" },
+    { "source": "/:match*", "destination": "portfolio-psi-brown-45.vercel.app/:match*" }
   ]
 }
