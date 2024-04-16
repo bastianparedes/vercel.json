@@ -4,8 +4,8 @@
     { "source": "/:path+/", "destination": "/:path" }
   ],
   "rewrites": [
-    { "source": "/portoflio", "destination": "https://portfolio.bastianparedes.com/portoflio" },
-    { "source": "/portoflio/:path*", "destination": "https://portfolio.bastianparedes/portoflio/:path*" },
+    { "source": "/portfolio", "destination": "https://portfolio.bastianparedes.com/portfolio" },
+    { "source": "/portfolio/:path*", "destination": "https://portfolio.bastianparedes/portfolio/:path*" },
     { "source": "/mallas-provent", "destination": "https://mallas-provent-bastianparedes.vercel.app/mallas-provent" },
     { "source": "/mallas-provent/:path*", "destination": "https://mallas-provent-bastianparedes.vercel.app/mallas-provent/:path*" },
     { "source": "/nanko-mangas-next", "destination": "https://nanko-mangas-next-bastianparedes.vercel.app/nanko-mangas-next" },
