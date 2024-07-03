@@ -2,8 +2,8 @@
   "redirects": [
   ],
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://tst-maker-backend.vercel.app/api/:path*" },
-    { "source": "/", "destination": "https://tst-maker-frontend.vercel.app/exercises/" },
-    { "source": "/:match*", "destination": "https://tst-maker-frontend.vercel.app/:match*" }
+    { "source": "/api/:path*", "destination": "https://emaker-backend.vercel.app/api/:path*" },
+    { "source": "/", "destination": "https://emaker-frontend.vercel.app/exercises/" },
+    { "source": "/:match*", "destination": "https://emaker-frontend.vercel.app/:match*" }
   ]
 }
