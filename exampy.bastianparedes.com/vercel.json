@@ -2,7 +2,7 @@
   "redirects": [
   ],
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://exampy-backend.vercel.app/api/:path*" },
+    { "source": "/api/python/:path*", "destination": "https://exampy-python.vercel.app/api/python/:path*" },
     { "source": "/", "destination": "https://exampy-frontend.vercel.app/exercises/" },
     { "source": "/:match*", "destination": "https://exampy-frontend.vercel.app/:match*" }
   ]
